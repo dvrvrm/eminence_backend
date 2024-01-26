@@ -6,3 +6,8 @@ This is the backend for the user signin/signup.
 `npm install`
 
 `npm start`
+
+## Test
+
+`npm test`
+
