@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "SET NODE_ENV=test && jest --testTimeout=5000 --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,10 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^8.1.1",
     "redis": "^4.6.12",
+    "supertest": "^6.3.4",
     "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
